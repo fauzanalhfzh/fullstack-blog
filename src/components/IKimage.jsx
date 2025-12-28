@@ -10,6 +10,12 @@ const Ikimage = ({src, className, w, h, alt}) => {
             width={w}
             height={h}
             loading="lazy"
+            transformation={[
+                {
+                    width: w,
+                    height: h,
+                }
+            ]}
         />
     )
 }

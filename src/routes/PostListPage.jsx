@@ -1,8 +1,9 @@
-import React from 'react'
+import Ikimage from "../components/IKimage.jsx";
+import {Link} from "react-router";
 
 const PostListPage = () => {
     return (
-        <div>PostListPage</div>
+        <div></div>
     )
 }
 export default PostListPage
